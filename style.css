@@ -1,0 +1,205 @@
+body{
+    margin: 1;
+    padding-bottom: 2rem;
+    padding: 0;
+    font-family: arial;
+    background-color: #E8FAFF;
+}
+
+.nav{
+    display:flex;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+.nav:hover{
+    border: 1px solid red;
+}
+
+#grow:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+}
+
+.menu{
+    width: 100%;
+}
+
+.menu ul{
+    list-style: none;
+    background: none;
+    margin: 0;
+    padding: 0;  
+    text-align: right;
+}
+
+.menu li{
+    display: inline-block;
+}
+
+.menu a{
+    border-radius: 50px;
+    text-decoration: none;
+    display: block;
+    color: black;
+    width: 100px;
+    padding: 20px 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.menu a:hover{
+    border: 1px solid black;
+    color: red;
+}
+
+#logo{
+    width: 300px;
+    position: relative;
+        top: 13px;
+        left: 50px;
+
+}
+
+#logo img{
+    width: 100%;    
+}
+
+.container1{
+    display: flex;
+    column-gap: 5%;
+}
+
+.container2{
+    display: flex;
+    column-gap: 5%;
+}
+
+.bike{
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 30%;
+    position: relative;
+        top: 50px;
+    text-align: center;
+    padding: 1rem;
+}
+
+.bike img{
+    position: relative;
+    width: 65%;
+}
+
+.bike a{
+    text-decoration: none;
+    color: black;
+}
+
+.bike:hover{
+    border: 1px solid red;
+}
+
+.container3{
+    display: flex;
+    column-gap: 1%;
+}
+
+.gallery{
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 40%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.gallery a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.gallery a:hover{
+    color: red;
+}
+
+.gallery img{
+    position: relative;
+    width: 65%;
+}
+
+.gallery table{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    width: 70%;
+    padding: 0.5rem;
+}
+
+.gallery caption{
+    background-color: #CFF4FF;
+    font-size: 1.3rem;
+}
+
+#gal{
+    width: 60%;
+    height: 30%;
+    position: relative;
+        left: 20%;
+    
+}
+
+.info a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.info a:hover{
+    color: red;
+}
+
+button{
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border-radius: 50px;
+}
+button:hover{
+    color: red;
+}
+
+.about-block{
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 97.5%;
+    position: relative;
+        top: 50px;
+    text-align: center;
+    padding: 1rem;
+}
+
+.about-block:hover{
+    border: 1px solid red;
+}
+
+.contact-block{
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 97.5%;
+    position: relative;
+        top: 50px;
+    text-align: center;
+    padding: 1rem;
+}
+
+.contact-block:hover{
+    border: 1px solid red;
+}
+
+
+
+
+
